@@ -37,12 +37,34 @@ body {
     align-content: center;
     flex-wrap: wrap;
     flex-shrink: initial;
-    min-width: 20em;
+    min-width: 19.75em;
     /* max-height: fit-content; */
     min-height: 45px;
     box-shadow: 4px 4px 3px rgb(73, 73, 73);
+    /* animation-name: headeranimate;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: alternate; */
+    /* animation: headeranimate alternate 2s ; */
 
 }
+
+/* @keyframes headeranimate 
+{
+    from{
+        color: white;
+        background-color: rgb(77, 77, 77);
+        box-shadow: 4px 4px 3px rgb(73, 73, 73);
+    }
+    to{
+        color: rgb(77, 77, 77);
+        background-color: white;
+        box-shadow: -4px -4px 3px rgb(73, 73, 73);
+    }
+
+} */
 
 .nav {
     color: white;
@@ -110,27 +132,85 @@ li {
     font-size: 10vw;
     color: rgb(77, 77, 77);
     /* font-size: min(68px); */
+    animation-name: hi;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes hi {
+    from{
+        color: rgb(77, 77, 77);
+    }
+    to{
+        color: rgb(255, 255, 255);
+    }
+    
 }
 
 #im {
     font-size: 10vw;
     color: white;
-
+    animation-name: im;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
     /* font-size: min(68px); */
+}
+@keyframes im {
+    from{
+        color: white;
+    }
+    to{
+        color: rgb(77, 77, 77);
+    }
+    
 }
 
 #nitin {
     font-size: 10vw;
     color: rgb(77, 77, 77);
     /* font-size: min(68px) */
+    animation-name: nitin;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes nitin {
+    from{
+        color: rgb(77, 77, 77);
+    }
+    to{
+        color: white;
+    }
+    
 }
 
 #dot {
     font-size: 10vw;
     color: white;
     /* font-size: min(68px); */
+    animation-name: dot;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
 }
-
+@keyframes dot{
+    from{
+        color: white;
+    }
+    to{
+        color: rgb(77, 77, 77);
+    }
+    
+}
 .tagline {
     margin: 0;
     padding: 0;
@@ -158,6 +238,21 @@ li {
     font-size: 4vw;
     color: rgb(77, 77, 77);
     /* font-size: min(18px); */
+    animation-name: frontend;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes frontend {
+    from{
+        color: rgb(77, 77, 77);
+    }
+    to{
+        color: rgb(255, 255, 255);
+    }
+    
 }
 
 #webdeveloper {
@@ -166,6 +261,21 @@ li {
     color: white;
     /* 
     font-size: min(18px); */
+    animation-name: webdeveloper;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes webdeveloper {
+    from{
+        color: white;
+    }
+    to{
+        color: rgb(77, 77, 77);
+    }
+    
 }
 
 #graphicdesigner {
@@ -173,8 +283,22 @@ li {
     font-size: 4vw;
     color: rgb(77, 77, 77);
     /* font-size: min(18px) */
+    animation-name: graphicdesigner;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-direction: alternate;
 }
-
+@keyframes graphicdesigner {
+    from{
+        color: rgb(77, 77, 77);
+    }
+    to{
+        color: white;
+    }
+    
+}
 .boxes {
     font-weight: 775;
     align-content: center;
@@ -211,7 +335,7 @@ li {
     background-color: rgb(128, 128, 128);
     border-radius: 7px;
     padding: 1vh 1.5vw;
-   
+
 }
 
 .box2 {
@@ -250,7 +374,7 @@ li {
     margin: 0;
     font-size: 3.5vw;
     /* padding: 0px 1px 0px 1px; */
-    
+
 }
 
 .bigbox1 {
@@ -270,7 +394,7 @@ li {
     /* display: flex; */
     /* flex-wrap: wrap; */
     background-color: rgb(255, 255, 255);
-    width: 350px;
+    width: 90vw;
     list-style: none;
     display: inline;
     justify-content: space-around;
@@ -280,17 +404,17 @@ li {
     /* height: 350px; */
     /* box-sizing: border-box; */
     /* background-image: url("IMG-0901 (2).jpg"); */
-    
-        display: block;
-        max-width:500px;
-        max-height:auto;
-        /* width: auto; */
-        /* height: auto; */
+
+    display: block;
+    max-width: 500px;
+    max-height: auto;
+    /* width: auto; */
+    /* height: auto; */
 }
 
 /* .bigbox2 { */
-    /* box-shadow: 2px 2px 3px rgb(73, 73, 73); */
-    /* border-width: 0.7vw;
+/* box-shadow: 2px 2px 3px rgb(73, 73, 73); */
+/* border-width: 0.7vw;
     border-style: solid;
     border-color: rgb(77, 77, 77);
     border-radius: 7px;
@@ -309,15 +433,15 @@ li {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap; */
-    /* min-width: 20em; */
-    /* height: 350px;
+/* min-width: 20em; */
+/* height: 350px;
     background-image: url("IMG_20220206_113734 (2).jpg"); */
-    
-    /* display: block; */
-    /* max-width:500px; */
-    /* max-height:500px; */
-    /* width: auto; */
-    /* height: auto; */
+
+/* display: block; */
+/* max-width:500px; */
+/* max-height:500px; */
+/* width: auto; */
+/* height: auto; */
 /* } */
 
 footer {
@@ -332,6 +456,7 @@ footer {
     min-width: 20em;
     min-height: 45px;
 }
+
 
 /* @media only screen and (max-width: 340px) {
     #hi
